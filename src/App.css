@@ -1,0 +1,135 @@
+body {
+  background: #161313;
+  color: #ffffff;
+  background-image: url("../public/cinema.jpg");
+  margin: 22px;
+}
+
+.movie-app > .row {
+  /* overflow-x: auto; */
+  flex-wrap: nowrap;
+
+  /* width:"6%"; */
+  /* margin: 6%;
+	padding: 27%;
+	padding-top: 0%; */
+}
+/* .row >*{
+	width: "36%";
+} */
+.image-container {
+  position: relative;
+  transition: transform 0.2s;
+  margin-left: 92px;
+  /* background-color: #161313; */
+  border: #ffffff;
+}
+.image {
+  background-color: rgb(221, 79, 43);
+  color: #ffffff;
+  height: 22px;
+  width: 22px;
+  margin: 2px;
+}
+.back {
+  border-radius: 8%;
+  background-color: rgb(221, 79, 43);
+  color: #ffffff;
+  margin: 0rem;
+}
+.row > * {
+  flex-shrink: 0;
+  width: 25%;
+
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+
+.image-container:hover {
+  cursor: pointer;
+  /* transform: scale(1.1); */
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+.remove {
+  margin: 10rem;
+}
+.remove {
+  margin: 12px;
+  margin-left: 2rem;
+  border-radius: 22px;
+  font-size: 16px;
+  background-color: rgb(218, 16, 16);
+  color: #ffffff;
+}
+.overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  width: 0%;
+  transition: 0.5s ease;
+  opacity: 0;
+  bottom: 0;
+  font-size: 20px;
+  /* padding: 20px; */
+  text-align: center;
+}
+.form-control {
+  /* display: block; */
+  width: 25%;
+  background-color: rgb(231, 219, 219);
+  margin-top: 22px;
+  margin: 22px;
+  /* float: left; */
+}
+.Fav {
+  justify-content: center;
+  align-items: center;
+  display: block;
+  margin: auto;
+  background-color: rgb(218, 16, 16);
+  color: #ffffff;
+  border-radius: 22px;
+  font-size: small;
+  margin-left: 19rem;
+}
+.Favss {
+  justify-content: center;
+  align-items: center;
+  display: block;
+  margin: auto;
+  background-color: rgb(218, 16, 16);
+  color: #ffffff;
+  border-radius: 22px;
+  font-size: small;
+  margin-left: -91rem;
+}
+.img {
+  margin-top: 103px;
+  margin: 2.5rem;
+  border: 12px solid rgb(206, 198, 185);
+}
+.submit {
+  border-radius: 8px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin-left: 122px;
+  background-color: rgb(177, 30, 30);
+  color: #ffffff;
+}
+.Favourites {
+  float: right;
+  color: #ffffff;
+  width: 15%;
+  background-color: rgb(236, 45, 45);
+  margin-top: 2px;
+  margin: 12px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}

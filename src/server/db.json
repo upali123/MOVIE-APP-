@@ -1,0 +1,28 @@
+{
+  "movies": [
+    {
+      "Title": "WWE Raw",
+      "Year": "1993–",
+      "imdbID": "tt0185103",
+      "Type": "series",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNjU2ZjBiZjgtMmNjZC00ZmYxLTg1MTgtNDYyMjViODI4YTVkXkEyXkFqcGdeQXVyOTQxNzM2MjY@._V1_SX300.jpg",
+      "id": 1
+    },
+    {
+      "Title": "WWE Smackdown!",
+      "Year": "1999–",
+      "imdbID": "tt0227972",
+      "Type": "series",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDFjYTQyY2ItM2NjMy00ZGQwLTgzZjQtZTdmNWM0MDBlN2VhXkEyXkFqcGdeQXVyODAzNzAwOTU@._V1_SX300.jpg",
+      "id": 2
+    },
+    {
+      "Title": "WWE NXT",
+      "Year": "2010–",
+      "imdbID": "tt1601141",
+      "Type": "series",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzc3MDcxOTUtMzE0OC00MmEwLTg0ZGUtZDNiNTJkODM1MjhiXkEyXkFqcGdeQXVyOTQxNzM2MjY@._V1_SX300.jpg",
+      "id": 3
+    }
+  ]
+}
